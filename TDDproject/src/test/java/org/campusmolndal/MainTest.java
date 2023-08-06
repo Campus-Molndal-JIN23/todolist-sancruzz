@@ -20,5 +20,18 @@ class MainTest {
         int e = 1;
         assertEquals(e, todo.getId());
     }
+    @Test
+    void testGetText() {
+        String e = "test";
+        assertEquals(e, todo.getText());
+    }
+    @Test
+    void testGetDone() {
+        Boolean e = true;
+        assertEquals(e, todo.isDone());
+    }
+
+
+
 
 }
