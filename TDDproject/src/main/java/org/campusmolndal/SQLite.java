@@ -1,9 +1,12 @@
+package org.campusmolndal;
+
+import org.campusmolndal.Todo;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-public class SQLite {
+
 
 
 
@@ -146,4 +149,4 @@ public class SQLite {
         }
     }
 
-}
+

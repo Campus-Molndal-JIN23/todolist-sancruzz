@@ -1,11 +1,9 @@
 package org.campusmolndal;
 
 
+import java.util.Scanner;
 
-
-
-
-    public class TodoApp {
+public class TodoApp {
         public static void main(String[] args) {
             String databaseName = "todos.db"; // Byt ut detta mot önskad SQLite-databasfil
             String connectionString = "jdbc:sqlite:";
@@ -79,4 +77,5 @@ package org.campusmolndal;
             }
         }
     }
+
 
